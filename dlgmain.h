@@ -54,7 +54,6 @@ private slots:
     void on_pbStart_clicked();
     void on_Timer_finished();
     void on_ExtTimer_finished();
-    void on_pbHide_clicked();
     void on_pbStop_clicked();
     void on_pbReset_clicked();
     void on_actionShow_triggered();
