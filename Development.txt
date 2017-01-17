@@ -1,0 +1,12 @@
+
+Countdown Timer
+
+Version 1.0.0
+-------------
+Initial commit. 
+
+Features:
+- Application starts in SystemTray, with popup menu.
+- Settings stored in ".inf" file
+  - application settings, like language of app, how and when the main window will appear etc.
+  - timer settings: main timer, extended timer, action after timer finish countdown
