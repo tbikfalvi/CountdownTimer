@@ -18,7 +18,7 @@ dlgMain::dlgMain(QWidget *parent) : QDialog(parent), ui(new Ui::dlgMain)
     m_bMousePressed     = false;
     m_bReloadLanguage   = false;
 
-    setWindowFlags( Qt::Dialog | Qt::FramelessWindowHint );
+//    setWindowFlags( Qt::Dialog | Qt::FramelessWindowHint );
 
     QSettings   obPref( QString( "%1/countdowntimer.inf" ).arg( QDir::currentPath() ), QSettings::IniFormat );
 
@@ -308,11 +308,6 @@ void dlgMain::on_Timer_finished()
     {
         on_ExtTimer_finished();
     }
-}
-
-void dlgMain::on_pbHide_clicked()
-{
-    hide();
 }
 
 void dlgMain::on_actionShow_triggered()
